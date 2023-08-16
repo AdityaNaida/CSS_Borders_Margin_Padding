@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background: aqua; 
+    border: 3px solid #000000;
+    /* padding-left: 50px; 
+    padding-top: 50px; 
+    padding-right: 50px; 
+    padding-bottom: 50px;  */
+
+    padding: 10px 50px 50px 40px;
+}
+.container span{
+    background: red;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}

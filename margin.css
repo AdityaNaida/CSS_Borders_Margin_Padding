@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* display: flex; */
+}
+.container{
+    height: 100px;
+    width: 500px;
+    border: 2px solid #000000;
+    background-color: yellow;
+    /* margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px; */
+    /*Margin collapse explained*/
+
+    /* margin-right: 50px; */
+    /* margin-bottom: 50px; */
+    /* margin: auto; */
+    /* margin: 20px[Top] 30px[Right] 40px[Bottom] 50px[Left]; */
+    /* margin: 20px[Top] 30px[Right & Left] 40px[Bottom] ; */
+    /* margin: 20px[Top & Bottom] 30px[Right & Left] ; */
+    /* margin: 20px[Top & Bottom & Right & left] ; */
+}
+
+.container-2{
+    height: 100px;
+    width: 500px;
+    border: 2px solid #000000;
+    background-color: red;
+    /* margin-left: 50px; */
+    /* margin-top: 100px; */
+    /* margin:  auto; */
+}
